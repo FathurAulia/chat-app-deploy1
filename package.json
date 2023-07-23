@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "install": "cd server && yarn",
+    "install-server": "cd server && yarn",
+    "install-public": "cd server && npm install",
     "start": "node server/index.js",
-    "public": "yarn start --prefix public",
-    "dev": "concurrently \"npm start\" \"npm run client\""
+    "public": "yarn start --prefix public"
   },
   "dependencies": {
     "concurrently": "^8.2.0"
