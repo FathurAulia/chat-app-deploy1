@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "install": "yarn",
+    "install": "cd server && yarn",
     "start": "node server/index.js",
     "public": "yarn start --prefix public",
     "dev": "concurrently \"npm start\" \"npm run client\""
